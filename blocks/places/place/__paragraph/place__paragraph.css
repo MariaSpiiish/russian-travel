@@ -10,4 +10,12 @@
 
 .place__paragraph:first-child {
     margin-bottom: 26px;
-  }
+}
+
+@media (max-width: 768px) {
+    .place__paragraph {  
+        font-size: 16px;
+        max-width: 352px;
+        line-height: 1.6;
+    }
+}
