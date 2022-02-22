@@ -5,7 +5,6 @@
     z-index: 0;
     top: 0;
     left: 0;
-    display: block;
     background-image: url('../../../images/cover-trains.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +14,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .cover__background::before {
