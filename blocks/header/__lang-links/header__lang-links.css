@@ -3,5 +3,7 @@
     flex-direction: row;
     gap: 18px;
     justify-content: space-between;
-    padding: 0;
+    align-items: flex-end;
+    padding: 0 0 8px 0;
+    margin: 0;
 }

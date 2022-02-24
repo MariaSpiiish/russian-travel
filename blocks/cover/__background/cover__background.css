@@ -49,7 +49,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .cover__background {
         max-width: 100%;
         min-height: 200px;

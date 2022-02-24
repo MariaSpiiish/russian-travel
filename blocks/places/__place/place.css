@@ -26,7 +26,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     .place {
         grid-template-columns: 288px;
         grid-auto-rows: auto;

@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 570px) {
     .footer__links {
         display: flex;
         flex-direction: column;
