@@ -5,30 +5,29 @@
     justify-content: space-between;
     font-size: 18px;
     margin: 0 auto;
-    padding-bottom: 24px;
-    padding-top: 92px;
+    padding: 92px 48px 24px;
 }
 
 @media (max-width: 1024px) {
-    .header {
+    .footer {
         max-width: 928px;
     }
 }
 
 @media (max-width: 768px) {
-    .header {
+    .footer {
         max-width: 720px;
+        padding: 88px 24px 24px;
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 730px) {
     .footer {
         flex-direction: column;
-        max-width: 186px;
-        min-height: 310px;
+        max-width: max-content;
         font-size: 24px;
         line-height: 1;
         margin-left: 16px;
-        padding-top: 64px;
+        padding: 64px 0 24px;
     }
 }

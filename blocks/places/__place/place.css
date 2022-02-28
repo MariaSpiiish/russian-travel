@@ -13,7 +13,6 @@
 @media (max-width: 1024px) {
     .place {
         grid-template-columns: 440px 1fr;
-        grid-auto-rows: auto;
         gap: 48px 32px;
     }
 }
@@ -21,17 +20,17 @@
 @media (max-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
-        grid-auto-rows: auto;
         gap: 48px 28px;
+        padding-bottom: 72px;
     }
 }
 
 @media (max-width: 600px) {
     .place {
         grid-template-columns: 288px;
-        grid-auto-rows: auto;
         gap: 32px;
-        margin: 0 auto;
+        margin: 0;
         max-width: 288px;
+        padding-bottom: 50px;
     }
 }

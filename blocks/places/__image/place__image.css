@@ -4,7 +4,7 @@
     height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .place__image {
         object-fit: contain;
         object-position: top;
@@ -13,10 +13,8 @@
 
 @media (max-width: 320px) {
     .place__image {
-        width: 320px;
-        height: 320px;
-        overflow: visible;
-        position: relative;
-        left: -16px;
+       width: 320px;
+       height: 320px;
+       
     }
 }

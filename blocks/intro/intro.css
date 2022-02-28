@@ -1,12 +1,12 @@
 .intro {
     max-width: 690px;
-    margin-left: 148px;
+    padding-left: 11.5%;
     padding-top: 92px;
 }
 
 @media (max-width: 1024px) {
     .intro {
-        margin-left: 48px;
+        padding-left: 48px;
     }
 }
 
@@ -14,14 +14,13 @@
     .intro {
         max-width: 720px;
         margin: 0 auto;
-        padding-top: 88px;
+        padding: 88px 24px 0;
     }
 }
 
 @media (max-width: 360px) {
     .intro {
         max-width: 288px;
-        margin: 0 auto;
-        padding-top: 64px;
+        padding-top: 64px 16px 0;
     }
 }

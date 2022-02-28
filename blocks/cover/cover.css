@@ -15,14 +15,13 @@
 
 @media (max-width: 768px) {
     .cover {
-        max-width: 100%;
         min-height: 480px;
+        margin-top: 64px;
     }
 }
 
 @media (max-width: 360px) {
     .cover {
-        max-width: 100%;
         min-height: 200px;
         margin-top: 38px;
     }
