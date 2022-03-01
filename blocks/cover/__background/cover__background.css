@@ -4,7 +4,7 @@
     z-index: 0;
     background-image: url('../../../images/cover-trains.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     text-decoration: none;
     display: flex;
